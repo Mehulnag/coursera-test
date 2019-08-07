@@ -1,35 +1,111 @@
 <!DOCTYPE html>
 <html>
      <head>
-   <title>CSS RULE</title>
+   <title>MODULE 2 CODING ASSIGMENT</title>
 
 <style>
-P{
-color: black;
-font-size: 20px;
-width: 450px;
-}
-P1{
-color: red;
-font-size: 20px;
-width: 450px;
-}
-h1
+
+
+
+box
 {
-color:green;
-font-size: 36px;
-text-align: center;
+background-color: gray;
+border: 2px solid black;
+margin-right: 40px ;
+width: 300px; padding: 10px;
+float: left;
 }
+
+#b1
+{
+background-color: yellow;
+border: 2px solid black;
+margin-right: 40px ;
+width: 300px;
+padding: 10px;
+float: left;
+}
+#b2
+{
+background-color: green;
+border: 2px solid black;
+margin-right: 40px ;
+width: 300px; padding: 10px;
+float: left;
+}
+#b3
+{
+background-color: red;
+border: 2px solid black;
+margin-right: 40px ;
+width: 300px; padding: 10px;
+float: left;
+}
+.row
+{
+width:100%;
+}
+    @media (min-width: 992px)
+{
+#b1{
+width: 33.33%;
+}
+#b2{
+width: 33.33%;
+
+}
+#b3{
+width:33.33%;
+}
+}
+  
+	@media (min-width: 768px) and(max-width: 991px)
+{
+#b1{
+width: 33.33%%;
+}
+#b2{
+width:66.66%;
+}
+#b3{
+width: 100%;
+}
+}
+    @media (max-width: 767px)
+{
+#b1{
+width: 33.33%;
+}
+#b2{
+width: 66.66%;
+}
+#b3{
+width: 100%;
+}
+}
+
+
 </style>
 </head>
 <body>
-<h1> ANTONY OF A CSS</h1>
-<p>
+<h1> OUR MENU</h1>
 
-Coffee in one hand, confidence in the other.
-Ray of fucking sunshine.
-I’m your worst nightmare.
-</p> 
-<p1> Mehul Nag 1999 &copy; Copyright</p1>
+
+<div id="b">
+<div id="b1"> <h2>chicken</h2>Lorem ipsum color sit,amet,consectetur 
+adipisicing elit kjuibjbjhbubh.</div>
+<div id="b">
+<div id="b2">
+            <h2>beef</h2>
+Lorem ipsum color sit,amet,consectetur 
+adipisicing elit kjuibjbjhbubh.</div>
+<div id="b">
+<div id="b3">
+   <h2>mutton</h2>
+   Lorem ipsum color sit,amet,consectetur 
+adipisicing elit kjuibjbjhbubh.</div>
+</div>
+</div>
+</div>
 </body>
 </html>
